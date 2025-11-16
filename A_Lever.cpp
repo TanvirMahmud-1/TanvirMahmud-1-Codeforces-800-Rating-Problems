@@ -1,0 +1,70 @@
+<<<<<<< HEAD
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int t;
+    cin >> t;
+
+    while (t--)
+    {
+        int n;
+        cin >> n;
+        vector<int> v1(n);
+        vector<int> v2(n);
+
+        int sum = 0;
+
+        for (int i = 0; i < n; i++)
+            cin >> v1[i];
+
+        for (int i = 0; i < n; i++)
+            cin >> v2[i];
+
+        for (int i = 0; i < n; i++)
+        {
+            if (v1[i] > v2[i])
+                sum += (v1[i] - v2[i]);
+        }
+        
+        sum++;
+
+        cout << sum  << endl;
+    }
+    return 0;
+=======
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int t;
+    cin >> t;
+
+    while (t--)
+    {
+        int n;
+        cin >> n;
+        vector<int> v1(n);
+        vector<int> v2(n);
+
+        int sum = 0;
+
+        for (int i = 0; i < n; i++)
+            cin >> v1[i];
+
+        for (int i = 0; i < n; i++)
+            cin >> v2[i];
+
+        for (int i = 0; i < n; i++)
+        {
+            if (v1[i] > v2[i])
+                sum += (v1[i] - v2[i]);
+        }
+        
+        sum++;
+
+        cout << sum  << endl;
+    }
+    return 0;
+>>>>>>> cf8ce1527faba0e58405d037dc27d3a8d53ff0ec
+}
